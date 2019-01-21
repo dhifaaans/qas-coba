@@ -1,0 +1,21 @@
+[
+    {
+        "id" : "mcdonald",
+        "address": "Jl. Laksda Adisucipto No.29, Ambarukmo, Caturtunggal, Kec. Depok, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55281",
+        "coordinat": "https://www.google.com/maps/dir//mcd/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x2e7a59e8a32e66b1:0xc2ac84d33c01ac20?ved=2ahUKEwiD4LOh6PzfAhVMQo8KHfvhC7gQ9RcwAHoECAEQCQ", 
+        "menu":{
+            "price":{
+                "panas1": 30000,
+                "mcflurry": 12000,
+                "cheeseburger": 330000
+            }
+        
+        },
+        "specialMenu": "cheeseburger"
+    },
+    {
+        "id" : "pizza hut",
+        "address": "jakal",
+        "coordinat": "https://www.google.com/maps/dir//mcd/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x2e7a59e8a32e66b1:0xc2ac84d33c01ac20?ved=2ahUKEwiD4LOh6PzfAhVMQo8KHfvhC7gQ9RcwAHoECAEQCQ"
+    }
+]
