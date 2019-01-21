@@ -44,31 +44,31 @@ def classify_question(question):
     else:
         return 'None'
 
-# def wiki_search(question):
-#     l = question.split(' ')
-#     if len(l) > 2:
-#         ques = " ".join(l[2:])
-#     try:
-#         print 'inside wiki search'
-#         ans = (wikipedia.summary(question, sentences=1)).encode('ascii', 'ignore')
-#         #ans=re.sub('([(].*?[)])',"",ans)
-#         #print(ans)
-#         link = wikipedia.page(ques)
-#         ans = ans + '\n For more information: '+link.url
-#         #print ('Refernce: ',link.url)
-#         #print ans
-#     except:
-#         print 'wiki_search_failed_google'
-#         #google_search(question)
-#     return ans
-
-def json_search(question):
+def wiki_search(question):
     l = question.split(' ')
     if len(l) > 2:
         ques = " ".join(l[2:])
     try:
-        print 'json searching'
-        ans = 
+        print 'inside wiki search'
+        ans = (wikipedia.summary(question, sentences=1)).encode('ascii', 'ignore')
+        #ans=re.sub('([(].*?[)])',"",ans)
+        #print(ans)
+        link = wikipedia.page(ques)
+        ans = ans + '\n For more information: '+link.url
+        #print ('Refernce: ',link.url)
+        #print ans
+    except:
+        print 'wiki_search_failed_google'
+        #google_search(question)
+    return ans
+
+# def json_search(question):
+#     l = question.split(' ')
+#     if len(l) > 2:
+#         ques = " ".join(l[2:])
+#     try:
+#         print 'json searching'
+#         ans = 
 
 def answer_question(question):
     try:
